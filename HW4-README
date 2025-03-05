@@ -1,0 +1,9 @@
+BENCHMARK RESULTS
+
+Locked Queue: 66.27 milliseconds, 
+with a throughput of 12,072,392 operations per second.
+
+Lock-Free Queue: 74.03 milliseconds, 
+with a throughput of 10,805,962 operations per second.
+
+The results show that the locked queue performed better than the lock free queue. The locked queue had better performance than the lock free queue because it had a lower amount of threads accessing the queue. The lock free queue had worse performance because it had more threads trying to access the queue at once. 
