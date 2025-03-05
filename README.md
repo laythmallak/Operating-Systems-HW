@@ -29,3 +29,8 @@ Operating-Systems-hw2.go
 input command:
 
 go run Operating-Systems-hw2.go
+
+
+to run hw4:
+
+go run . 
