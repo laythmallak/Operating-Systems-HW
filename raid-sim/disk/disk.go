@@ -1,4 +1,6 @@
+package disk
 
+import (
     "os"
 )
 

@@ -1,3 +1,4 @@
+package raid
 
 type RAID interface {
     Write(blockNum int, data []byte) error

@@ -1,4 +1,6 @@
+package main
 
+import (
     "fmt"
     "os"
     "raid-sim/raid"

@@ -1,4 +1,6 @@
+package raid
 
+import (
     "errors"
     "raid-sim/disk"
 )

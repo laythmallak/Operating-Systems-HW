@@ -1,4 +1,6 @@
+package benchmark
 
+import (
     "fmt"
     "math/rand"
     "raid-sim/raid"
@@ -22,11 +24,7 @@ func RunBenchmark(r raid.RAID, blockSize, totalSize int) {
     }
     readTime := time.Since(start)
 
-    fmt.Printf("Write time: %v
-", writeTime)
-    fmt.Printf("Read time: %v
-", readTime)
-    fmt.Printf("Blocks: %d, Block size: %d, Total: %d MB
-
-", numBlocks, blockSize, totalSize/1024/1024)
+    fmt.Printf("Write time: %v\n", writeTime)
+    fmt.Printf("Read time: %v\n", readTime)
+    fmt.Printf("Blocks: %d, Block size: %d, Total: %d MB\n\n", numBlocks, blockSize, totalSize/1024/1024)
 }

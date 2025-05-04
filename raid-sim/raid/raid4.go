@@ -1,7 +1,8 @@
+package raid
 
+import (
     "errors"
     "raid-sim/disk"
-    "bytes"
 )
 
 type RAID4 struct {

@@ -34,3 +34,11 @@ go run Operating-Systems-hw2.go
 to run hw4:
 
 go run . 
+
+FOR HW7: 
+
+If no mod file run: go mod init raid-sim
+
+To run program use the below command once navigating to raid-sim:
+
+go run main.go
