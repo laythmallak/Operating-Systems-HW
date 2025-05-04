@@ -2,7 +2,6 @@ package main
 
 import (
     "fmt"
-    "os"
     "raid-sim/raid"
     "raid-sim/disk"
     "raid-sim/benchmark"
