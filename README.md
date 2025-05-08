@@ -42,3 +42,11 @@ If no mod file run: go mod init raid-sim
 To run program use the below command once navigating to raid-sim:
 
 go run main.go
+
+
+for hw8
+
+cd hw8
+go mod init safe-logger
+go run *.go
+go run -race *.go
